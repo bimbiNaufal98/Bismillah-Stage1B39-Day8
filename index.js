@@ -135,6 +135,14 @@ app.get( '/myproject-detail/:index', (request, response) => { //:name ini bisa d
 
     let data= dataBlog[index]
 
+    data= {
+        projectName: data.projectName,
+        startDate: data.startDate,
+        endDate: data.endDate,
+        duration: getDistanceTime(new Date(data.startDate), new Date(data.endDate)),
+        description: data.description
+    }
+
     response.render ('myproject-detail', {data})
 })
 

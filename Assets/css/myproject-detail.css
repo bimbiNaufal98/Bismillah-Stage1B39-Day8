@@ -71,8 +71,8 @@ nav {
     width: 100%;
 }
 
-.blog-detail img {
-    margin-left: 100px;
+.blog-detail-1 img {
+    margin-left: 20px;
 }
 
 .blog-detail-isi {
@@ -82,9 +82,9 @@ nav {
 
 .blog-detail-2 p {
     /* background-color: red; */
-    margin-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    margin-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
     text-align: justify;
     text-indent: 30px;
     margin-bottom: 50px;
