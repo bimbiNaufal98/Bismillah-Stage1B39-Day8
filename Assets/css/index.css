@@ -140,6 +140,13 @@ nav {
     border: none;
 }
 
+.white {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI';
+    border: none;
+}
+
 .blog-detail-satu {
     background-color: rgb(255, 255, 255);
     display: flex;
