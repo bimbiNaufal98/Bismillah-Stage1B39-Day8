@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended: false})) // supaya tidak undefined dalam c
 let dataBlog = [ // data dummy atau data statis
     {
         projectName: "Dumbways project-1",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam maxime iure sapiente magnam natus odio voluptatum magni quae accusamus.",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit.Officiis quibusdam maxime iure sapiente magnam natus odio voluptatum magni quae accusamus.",
         technologies1: "fa-js",
         technologies2: "fa-php",
         technologies3: "fa-react",
