@@ -223,17 +223,17 @@ function getDistanceTime(time, end) {
     let distanceSeconds = Math.floor(distance / milisecond)
 
     if(distanceYear > 0){
-        return `${distanceYear} Years to come`
+        return `${distanceYear} Years`
     } else if (distanceMonth > 0){
-        return `${distanceMonth} Month to come` 
+        return `${distanceMonth} Month` 
     } else if (distanceDay > 0) {
-        return `${distanceDay} Day to come`
+        return `${distanceDay} Day`
     } else if(distanceHours > 0){
-        return `${distanceHours} Hours to come`
+        return `${distanceHours} Hours`
     } else if(distanceMinutes > 0){
-        return `${distanceMinutes} Minutes to come`
+        return `${distanceMinutes} Minutes`
     } else {
-        return `${distanceSeconds} Seconds to come`
+        return `${distanceSeconds} Seconds`
     }
 }
 
